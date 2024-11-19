@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEVbaltazar/portfolio.git"
+  },
+  "author": "Baltazar lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEVbaltazar/portfolio/issues"
+  },
+  "homepage": "https://github.com/DEVbaltazar/portfolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
