@@ -4,38 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Baltazar Lee | Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/utils.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/sections.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/skillset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/experience.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
 </head>
 
 <body>
     <header>
-        <img class="circle" src="assets/img/logos/large.png" alt="logo large" />
+        <img class="circle" src="./assets/img/logos/large.png" alt="logo large" />
         <h1>Baltazar Lee</h1>
         <hr />
         <h2>Desarrollador Frontend</h2>
         <video autoplay loop muted>
-            <source src="assets/video/hero.mp4" />
+            <source src="./assets/video/hero.mp4" />
         </video>
     </header>
     <nav id="navbar" class="open navbar-open">
         <div>
             <a href="/">
-                <img class="circle" src="assets/img/logos/small.png" alt="small logo" />
+                <img class="circle" src="./assets/img/logos/small.png" alt="small logo" />
                 <span>Baltazar Lee <small>Desarrollador Frontend</small></span>
             </a>
             <button id="hamburger">☰</button>
@@ -52,8 +39,8 @@
             <h3>Portfolio</h3>
             <hr />
             <div>
-                <button>
-                    <img src="assets/paleta_proyecto.png" />
+                <button class="eins-modal-button" data-modal-id="myModal">
+                    <img src="./assets/paleta_proyecto.png" />
                     <h4>Proyecto Paleta</h4>
                 </button>
             </div>
@@ -63,35 +50,35 @@
             <hr />
             <div>
                 <div>
-                    <img src="assets/img/skillset/html.svg" />
+                    <img src="./assets/img/skillset/html.svg" />
                     <span class="tooltip">HTML</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/css.svg" />
+                    <img src="./assets/img/skillset/css.svg" />
                     <span class="tooltip">CSS</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/js.svg" />
+                    <img src="./assets/img/skillset/js.svg" />
                     <span class="tooltip">Javascript</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/git.svg" />
+                    <img src="./assets/img/skillset/git.svg" />
                     <span class="tooltip">GIT</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/npm.svg" />
+                    <img src="./assets/img/skillset/npm.svg" />
                     <span class="tooltip">npm</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/bash.svg" />
+                    <img src="./assets/img/skillset/bash.svg" />
                     <span class="tooltip">bash</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/node.svg" />
+                    <img src="./assets/img/skillset/node.svg" />
                     <span class="tooltip">Node.js</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/react.svg" />
+                    <img src="./assets/img/skillset/react.svg" />
                     <span class="tooltip">React</span>
                 </div>
             </div>
@@ -101,19 +88,19 @@
             <hr />
             <div>
                 <a>
-                    <img src="assets/img/experience/1.svg" />
+                    <img src="./assets/img/experience/1.svg" />
                     <h4>Trabajo 1</h4>
                 </a>
                 <a>
-                    <img src="assets/img/experience/2.svg" />
+                    <img src="./assets/img/experience/2.svg" />
                     <h4>Trabajo 2</h4>
                 </a>
                 <a>
-                    <img src="assets/img/experience/3.svg" />
+                    <img src="./assets/img/experience/3.svg" />
                     <h4>Trabajo 3</h4>
                 </a>
                 <a>
-                    <img src="assets/img/experience/4.svg" />
+                    <img src="./assets/img/experience/4.svg" />
                     <h4>Trabajo 4</h4>
                 </a>
             </div>
@@ -135,13 +122,13 @@
             </form>
             <nav id="social-media">
                 <a href="https://www.linkedin.com/in/xavier-reyes-ochoa/">
-                    <img id="linkedin" src="assets/img/social/linkedin.png">
+                    <img id="linkedin" src="./assets/img/social/linkedin.png">
                 </a>
                 <a href="https://github.com/xrochoa">
-                    <img id="github" src="assets/img/social/github.png">
+                    <img id="github" src="./assets/img/social/github.png">
                 </a>
                 <a href="https://www.programadorx.com">
-                    <img id="youtube" src="assets/img/social/youtube.png">
+                    <img id="youtube" src="./assets/img/social/youtube.png">
                 </a>
             </nav>
         </section>
@@ -149,8 +136,21 @@
     <footer>
         <small>Developed and designed by Baltazar Lee. ©2024. All rights reserved.</small>
     </footer>
+    
+<!-- Modal -->
+<div id="myModal" class="eins-modal">
+    <div class="eins-modal-content">
+      <div class="eins-modal-close"></div>
+  
+     sirve para darme una idea para mis paletas de colores
+      
+
+    </div>
+  </div>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/fixed.js"></script>
+    <script src="/node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
